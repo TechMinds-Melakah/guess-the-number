@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    position: absolute;
+    top: 36px;
+    background: rgb(7, 196, 230);
+    text-align: center;
+    align-items: center;
+
+}
+
+.box{
+    padding: 13px 290px;
+}
+
+h4{
+    background: #111;
+    color: #fff;
+    padding: 39px;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom:15px;
+}
+
+p{
+    font-size:24px;
+    font-style: italic;
+    margin-bottom:15px;
+}
+.form-group input{
+    width: 305px;
+    height:40px;
+    margin-bottom: 22px;
+}
+
+.form-group input::placeholder{
+    font-size: 34px;
+    background: #ff0202;
+}
+
+#outputText{
+ margin-top:34px;
+ color:#fff;
+ background:#f50404;
+}
+#guessCount{
+ margin-top:13px;
+ color: #ff0202;
+}
+
+.submit{
+    font-size:23px;
+    padding:14px 45px;
+    color:#fff;
+    background: #111;
+    border-radius: 44px;
+}
